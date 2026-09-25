@@ -1,5 +1,7 @@
 # signaldesk-streams-kit
 
+**Not for production use.**
+
 Small, strict Redis Streams primitives for SignalDesk Python 3.11 consumers.
 
 `StreamConsumerConfig` validates Redis-safe topology names. Events are serialized
@@ -17,3 +19,7 @@ are unchanged.
 
 Use `reclaim_stale_pending` with a Redis server idle threshold and retain its
 returned cursor for subsequent calls.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
